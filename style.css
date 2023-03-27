@@ -3,3 +3,7 @@ img{
     width: 3rem;
     border-radius: 50%;
 }
+
+.card-body{
+    padding: 0px;
+}
