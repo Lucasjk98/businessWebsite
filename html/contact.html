@@ -44,46 +44,29 @@
 </nav>
 
 <h1>Contact & Reserve free introductory class </h1>
+<form class= "contact-form" action="/action_page.php">
+<div class="form-group">
+  <label for="f-name">First Name:</label>
+  <input type="text" class="form-control" id="f-name">
+</div>
+<div class="form-group">
+  <label for="l-name">Last Name:</label>
+  <input type="text" class="form-control" id="l-name">
+</div>
+<div class="form-group">
+  <label for="phone">Phone Number:</label>
+  <input type="number" class="form-control" id="phone">
+</div>
+<div class="form-group">
+  <label for="Email">Email:</label>
+  <input type="email" class="form-control" id="Email">
+</div>
+<div class="form-group">
+  <label for="comment">Message:</label>
+  <textarea class="form-control" rows="5" id="comment"></textarea>
+</div>
+</form>
 
-<form action="#" method="GET">
-    <div class="form-row">
-        <label>
-            <input type="text" name = "first-name" placeholder="your first name" required/>
-        </label>
-    </div>
-
-    <div class="form-row">
-        <label>
-            Last name:
-            <input type="text" name = "last-name" required/>
-        </label>
-    </div>
-
-    <div class="form-row">
-        <label>
-            Email:
-            <input type="email" name = "email"  required/>
-        </label>
-    </div>
-
-    <div class="form-row">
-        <label>
-            Phone number:
-            <input type="tel" name = "phone" placeholder = "123-123-1234" required pattern = "[0-9]{3}-[0-9]{3}-[0-9]{4}"/>
-        </label>
-    </div>
-
-     <div class="form-row">
-        <label>
-            message:
-            <textarea name = "message"> </textarea>
-        </label>
-    </div>
-
-    <div class="form-row">
-        <button type="submit"> Send</button>
-        <button type="reset"> Clear</button>
-    </div>
     
    
 
