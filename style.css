@@ -15,9 +15,10 @@
 }
 
 .hero h1{
-    color: rgb(215, 212, 235);
+    color: rgb(243, 242, 249);
     margin-top: 1rem;
     text-align: center;
+    font-size: 4rem;
 }
 
 .hero p {
@@ -61,6 +62,19 @@
 
 .about-page,p, .page-list {
     background-size: cover;
-    color: beige;
-    background-color: rgb(57, 52, 78) ;
+    color: rgb(247, 247, 229);
+    background-color: rgba(9, 28, 75, 0.6);
+    border-radius: 30px;
+    text-shadow: 2px 2px 4px #000000
+}
+
+.about-page, p{
+    padding-left: 3rem;
+    padding-right: 3rem;
+}
+
+.footer{
+    color: aqua;
+    align-items: center;
+    justify-content: center;
 }
